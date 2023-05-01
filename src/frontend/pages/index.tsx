@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Breadcrumb, Carousel, theme, Image, Card, Row, Col } from 'antd';
 // import Image from 'next/image'
 import Background from '../public/assets/img/background.png'
-import Meta from 'antd/es/card/Meta';
 
 const Home: NextPage = () => {
     const [collapsed, setCollapsed] = useState(false);
@@ -65,7 +64,7 @@ const Home: NextPage = () => {
                 style={{ width: 240 }}
                 cover={<img alt="example" src={Background.src} />}
               >
-                <Meta title="AI ART NAME" description="very wonderful picture" />
+                On my side it really works well.
               </Card>
             </Col>
             <Col span={4}>
@@ -74,7 +73,6 @@ const Home: NextPage = () => {
                 style={{ width: 240 }}
                 cover={<img alt="example" src={Background.src} />}
               >
-                <Meta title="AI ART NAME" description="very wonderful picture" />
               </Card>
             </Col>
             <Col span={4}>
@@ -83,7 +81,6 @@ const Home: NextPage = () => {
                 style={{ width: 240 }}
                 cover={<img alt="example" src={Background.src} />}
               >
-                <Meta title="AI ART NAME" description="very wonderful picture" />
               </Card>
             </Col>
             <Col span={4}>
@@ -92,7 +89,6 @@ const Home: NextPage = () => {
                 style={{ width: 240 }}
                 cover={<img alt="example" src={Background.src} />}
               >
-                <Meta title="AI ART NAME" description="very wonderful picture" />
               </Card>
             </Col>
             <Col span={4}>
@@ -101,7 +97,6 @@ const Home: NextPage = () => {
                 style={{ width: 240 }}
                 cover={<img alt="example" src={Background.src} />}
               >
-                <Meta title="AI ART NAME" description="very wonderful picture" />
               </Card>
             </Col>
             <Col span={4}>
@@ -110,7 +105,6 @@ const Home: NextPage = () => {
                 style={{ width: 240 }}
                 cover={<img alt="example" src={Background.src} />}
               >
-                <Meta title="AI ART NAME" description="very wonderful picture" />
               </Card>
             </Col>
           </Row>
